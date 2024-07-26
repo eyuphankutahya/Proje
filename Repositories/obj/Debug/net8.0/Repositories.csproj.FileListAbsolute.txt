@@ -13,3 +13,4 @@ C:\Users\eyuphan.kutahya\Desktop\Proje\Repositories\obj\Debug\net8.0\Repositorie
 C:\Users\eyuphan.kutahya\Desktop\Proje\Repositories\bin\Debug\net8.0\Entities.dll
 C:\Users\eyuphan.kutahya\Desktop\Proje\Repositories\bin\Debug\net8.0\Entities.pdb
 C:\Users\eyuphan.kutahya\Desktop\Proje\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
+C:\Users\eyuphan.kutahya\Desktop\Proje\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json

@@ -73,3 +73,8 @@ C:\Users\eyuphan.kutahya\Desktop\Proje\bin\Debug\net8.0\Services\obj\project.ass
 C:\Users\eyuphan.kutahya\Desktop\Proje\bin\Debug\net8.0\Services\obj\Services.csproj.nuget.dgspec.json
 C:\Users\eyuphan.kutahya\Desktop\Proje\bin\Debug\net8.0\Services.dll
 C:\Users\eyuphan.kutahya\Desktop\Proje\bin\Debug\net8.0\Services.pdb
+C:\Users\eyuphan.kutahya\Desktop\Proje\obj\Debug\net8.0\Proje.sourcelink.json
+C:\Users\eyuphan.kutahya\Desktop\Proje\bin\Debug\net8.0\Entities\obj\Debug\net8.0\Entities.sourcelink.json
+C:\Users\eyuphan.kutahya\Desktop\Proje\bin\Debug\net8.0\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json
+C:\Users\eyuphan.kutahya\Desktop\Proje\bin\Debug\net8.0\Services\obj\Debug\net8.0\Services.sourcelink.json
+C:\Users\eyuphan.kutahya\Desktop\Proje\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

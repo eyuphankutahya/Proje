@@ -1,9 +1,12 @@
-﻿using Entities.Models;
+﻿using System.Reflection;
+using Entities.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace Repositories
 {
-    public class RepositoryContext : DbContext
+    public class RepositoryContext : IdentityDbContext<IdentityUser>
     {
 
         public RepositoryContext()
@@ -17,25 +20,26 @@ namespace Repositories
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Giris>().
-            HasData(
-                new Giris()
-                {
-                    Id = 1,
-                    Username = "admin",
-                    Password = "Password",
-                    Email = "admin@gmail.com"
-                },
-                new Giris()
-                {
-                    Id = 2,
-                    Username = "user",
-                    Password = "userpassword",
-                    Email = "user@gmail.com"
-                });
+
+            base.OnModelCreating(modelBuilder);
+            // modelBuilder.Entity<Giris>().
+            //  HasData(
+            //      new Giris()
+            //      {
+            //          Id = 1,
+            //          Username = "admin",
+            //          Password = "Password",
+            //          Email = "admin@gmail.com"
+            //      },
+            //      new Giris()
+            //      {
+            //          Id = 2,
+            //          Username = "user",
+            //          Password = "userpassword",
+            //          Email = "user@gmail.com"
+            //      });
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+
         }
-
     }
-
-
 }

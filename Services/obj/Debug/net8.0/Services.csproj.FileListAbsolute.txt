@@ -15,3 +15,4 @@ C:\Users\eyuphan.kutahya\Desktop\Proje\Services\bin\Debug\net8.0\Entities.pdb
 C:\Users\eyuphan.kutahya\Desktop\Proje\Services\bin\Debug\net8.0\Repositories.pdb
 C:\Users\eyuphan.kutahya\Desktop\Proje\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
 C:\Users\eyuphan.kutahya\Desktop\Proje\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+C:\Users\eyuphan.kutahya\Desktop\Proje\Services\obj\Debug\net8.0\Services.sourcelink.json
