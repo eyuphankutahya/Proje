@@ -6,8 +6,8 @@ namespace Proje.Models
     {
         private string? _returnurl;
 
-        [Required(ErrorMessage = "Email alanı boş geçilemez")]
-        public string? Email { get; set; } //??
+        //[Required(ErrorMessage = "Email alanı boş geçilemez")]
+       // public string? Email { get; set; } //??
         [Required(ErrorMessage = "isim alanı boş geçilemez")]
         public string? Name { get; set; }
 

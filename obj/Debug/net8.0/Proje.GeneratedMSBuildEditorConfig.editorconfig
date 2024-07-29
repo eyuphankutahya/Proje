@@ -9,59 +9,71 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Proje
 build_property.RootNamespace = Proje
-build_property.ProjectDir = C:\Users\eyuphan.kutahya\Desktop\Proje\
+build_property.ProjectDir = C:\Users\eyuphan\Desktop\Proje\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\eyuphan.kutahya\Desktop\Proje
+build_property.MSBuildProjectDirectory = C:\Users\eyuphan\Desktop\Proje
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/eyuphan.kutahya/Desktop/Proje/Areas/Admin/Views/Role/Index.cshtml]
+[C:/Users/eyuphan/Desktop/Proje/Areas/Admin/Views/Role/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eyuphan.kutahya/Desktop/Proje/Areas/Admin/Views/User/Index.cshtml]
+[C:/Users/eyuphan/Desktop/Proje/Areas/Admin/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eyuphan.kutahya/Desktop/Proje/Views/Account/Login.cshtml]
+[C:/Users/eyuphan/Desktop/Proje/Areas/Admin/Views/User/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eyuphan/Desktop/Proje/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eyuphan/Desktop/Proje/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eyuphan/Desktop/Proje/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eyuphan.kutahya/Desktop/Proje/Views/Account/Register.cshtml]
+[C:/Users/eyuphan/Desktop/Proje/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eyuphan.kutahya/Desktop/Proje/Views/Giris/Index.cshtml]
+[C:/Users/eyuphan/Desktop/Proje/Views/Giris/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lyaXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eyuphan.kutahya/Desktop/Proje/Views/Home/Index.cshtml]
+[C:/Users/eyuphan/Desktop/Proje/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eyuphan.kutahya/Desktop/Proje/Views/Home/Privacy.cshtml]
+[C:/Users/eyuphan/Desktop/Proje/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eyuphan.kutahya/Desktop/Proje/Views/Shared/Error.cshtml]
+[C:/Users/eyuphan/Desktop/Proje/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eyuphan.kutahya/Desktop/Proje/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/eyuphan/Desktop/Proje/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eyuphan.kutahya/Desktop/Proje/Views/_ViewImports.cshtml]
+[C:/Users/eyuphan/Desktop/Proje/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eyuphan.kutahya/Desktop/Proje/Views/_ViewStart.cshtml]
+[C:/Users/eyuphan/Desktop/Proje/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eyuphan.kutahya/Desktop/Proje/Views/Shared/_Layout.cshtml]
+[C:/Users/eyuphan/Desktop/Proje/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-wzp8xvl3am

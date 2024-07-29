@@ -65,19 +65,19 @@ namespace Proje.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "cec84e6d-c1bb-48da-b2c1-e1b9e7c51f6d",
+                            Id = "c0936531-a34a-4e39-932f-7a9dce7ccf30",
                             Name = "User",
                             NormalizedName = "USER"
                         },
                         new
                         {
-                            Id = "332c0b21-f00c-4576-8c26-09cf6301473e",
+                            Id = "a92324d9-4354-4f29-ac14-8915e0266b76",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "ffe5bfe0-81f9-43d8-afad-febfdb9fec8b",
+                            Id = "b43e2d01-b22e-4d38-9c67-0f36a08dc627",
                             Name = "Editor",
                             NormalizedName = "EDITOR"
                         });

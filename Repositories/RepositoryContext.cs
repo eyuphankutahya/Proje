@@ -28,5 +28,10 @@ namespace Repositories
         public DbSet<Giris> GirisModel { get; set; }
         // ?? gerek yok gibi
 
+        public DbSet<IdentityUser> IdentityUser { get; set; }
+
+        public DbSet<IdentityRole> IdentityRole { get; set; }
+
+
     }
 }

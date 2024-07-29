@@ -61,14 +61,21 @@ namespace Services
             throw new Exception("Kullanıcı bulunamadı");
         }
 
-        public Task<IdentityResult> ResetPassword(ResetPasswordDto model)
+        public async Task<IdentityResult> ResetPassword(ResetPasswordDto model)
         {
             //??
-            // var user = await GetOneUser(model.UserName);
+            var user = await GetOneUser(model.UserName);
+            if (user is not null)
+            {
+                await _userManager.RemovePasswordAsync(user);
+                var result = await _userManager.AddPasswordAsync(user, model.Password);
+                return result;
+            }
+            throw new Exception("User not found");
             // await _userManager.RemovePasswordAsync(user);
             // var result = await _userManager.AddPasswordAsync(user, model.Password);
             // return result;
-            throw new NotImplementedException();
+            // throw new NotImplementedException();
         }
 
 

@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Proje.Migrations
 {
-    public partial class kontrolss : Migration
+    public partial class testt : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -172,17 +172,17 @@ namespace Proje.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
-                values: new object[] { "332c0b21-f00c-4576-8c26-09cf6301473e", null, "Admin", "ADMIN" });
+                values: new object[] { "a92324d9-4354-4f29-ac14-8915e0266b76", null, "Admin", "ADMIN" });
 
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
-                values: new object[] { "cec84e6d-c1bb-48da-b2c1-e1b9e7c51f6d", null, "User", "USER" });
+                values: new object[] { "b43e2d01-b22e-4d38-9c67-0f36a08dc627", null, "Editor", "EDITOR" });
 
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
-                values: new object[] { "ffe5bfe0-81f9-43d8-afad-febfdb9fec8b", null, "Editor", "EDITOR" });
+                values: new object[] { "c0936531-a34a-4e39-932f-7a9dce7ccf30", null, "User", "USER" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",

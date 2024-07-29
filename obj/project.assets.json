@@ -1501,19 +1501,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\eyuphan.kutahya\\.nuget\\packages\\": {}
+    "C:\\Users\\eyuphan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eyuphan.kutahya\\Desktop\\Proje\\Proje.csproj",
+      "projectUniqueName": "C:\\Users\\eyuphan\\Desktop\\Proje\\Proje.csproj",
       "projectName": "Proje",
-      "projectPath": "C:\\Users\\eyuphan.kutahya\\Desktop\\Proje\\Proje.csproj",
-      "packagesPath": "C:\\Users\\eyuphan.kutahya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eyuphan.kutahya\\Desktop\\Proje\\obj\\",
+      "projectPath": "C:\\Users\\eyuphan\\Desktop\\Proje\\Proje.csproj",
+      "packagesPath": "C:\\Users\\eyuphan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\eyuphan\\Desktop\\Proje\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\eyuphan.kutahya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\eyuphan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1528,14 +1528,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\eyuphan.kutahya\\Desktop\\Proje\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\eyuphan.kutahya\\Desktop\\Proje\\Entities\\Entities.csproj"
+            "C:\\Users\\eyuphan\\Desktop\\Proje\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\eyuphan\\Desktop\\Proje\\Entities\\Entities.csproj"
             },
-            "C:\\Users\\eyuphan.kutahya\\Desktop\\Proje\\Repositories\\Repositories.csproj": {
-              "projectPath": "C:\\Users\\eyuphan.kutahya\\Desktop\\Proje\\Repositories\\Repositories.csproj"
+            "C:\\Users\\eyuphan\\Desktop\\Proje\\Repositories\\Repositories.csproj": {
+              "projectPath": "C:\\Users\\eyuphan\\Desktop\\Proje\\Repositories\\Repositories.csproj"
             },
-            "C:\\Users\\eyuphan.kutahya\\Desktop\\Proje\\Services\\Services.csproj": {
-              "projectPath": "C:\\Users\\eyuphan.kutahya\\Desktop\\Proje\\Services\\Services.csproj"
+            "C:\\Users\\eyuphan\\Desktop\\Proje\\Services\\Services.csproj": {
+              "projectPath": "C:\\Users\\eyuphan\\Desktop\\Proje\\Services\\Services.csproj"
             }
           }
         }

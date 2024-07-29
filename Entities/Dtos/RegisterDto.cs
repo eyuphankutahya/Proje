@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Entities.Dtos
 {
-    public class RegisterDto
+    public record RegisterDto
     {
         [Required(ErrorMessage = "UserName boş olamaz")]
         public string? UserName { get; init; }

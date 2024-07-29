@@ -6,16 +6,18 @@ using Proje.Models;
 
 namespace Proje.Controllers
 {
-    public class AccountContoller : Controller
+    public class AccountController : Controller
     {
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
 
-        public AccountContoller(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager)
+        public AccountController(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager)
         {
             _userManager = userManager;
             _signInManager = signInManager;
         }
+
+               
         public IActionResult Login([FromQuery(Name = "ReturnUrl")] string returnUrl = "/")
         {
             return View(new LoginModel()
@@ -24,6 +26,8 @@ namespace Proje.Controllers
             }
             );
         }
+       
+        
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -32,7 +36,7 @@ namespace Proje.Controllers
             if (ModelState.IsValid)
             {
                 IdentityUser user = await _userManager.FindByNameAsync(model.Name);
-                //name orjinalde ==  bizde email
+                //name orjinalde ==  bizde email ??
                 if (user is not null)
                 {
                     await _signInManager.SignOutAsync();

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eyuphan.kutahya\\Desktop\\Proje\\Entities\\Entities.csproj": {}
+    "C:\\Users\\eyuphan\\Desktop\\Proje\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eyuphan.kutahya\\Desktop\\Proje\\Entities\\Entities.csproj": {
+    "C:\\Users\\eyuphan\\Desktop\\Proje\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eyuphan.kutahya\\Desktop\\Proje\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\eyuphan\\Desktop\\Proje\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\eyuphan.kutahya\\Desktop\\Proje\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\eyuphan.kutahya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eyuphan.kutahya\\Desktop\\Proje\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\eyuphan\\Desktop\\Proje\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\eyuphan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eyuphan\\Desktop\\Proje\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\eyuphan.kutahya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eyuphan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
