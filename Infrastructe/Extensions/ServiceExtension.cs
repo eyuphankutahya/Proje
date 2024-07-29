@@ -28,12 +28,12 @@ namespace Proje.Infrastructure.Extensions
         {
             services.AddIdentity<IdentityUser, IdentityRole>(options =>
             {
-                options.SignIn.RequireConfirmedEmail = false;
+                options.SignIn.RequireConfirmedEmail = false;//Kullanici email onaylaması gerekiyor
                 options.User.RequireUniqueEmail = true;//Email kontrolü
                 options.Password.RequireDigit = false;//Sifrede rakam olması gerekiyor
                 options.Password.RequireLowercase = false;//Sifrede küçük harf olması gerekiyor
                 options.Password.RequireUppercase = false;//Sifrede büyük harf olması gerekiyor
-                options.Password.RequireNonAlphanumeric = true;//Sifrede non alfanumeric karakter olması gerekiyor
+                options.Password.RequireNonAlphanumeric = false;//Sifrede non alfanumeric karakter olması gerekiyor
                 options.Password.RequiredLength = 1;//Sifre uzunlugu
 
                 // options.ClaimsIdentity.RoleClaimType = "Role";// Rol tipi
@@ -93,7 +93,7 @@ namespace Proje.Infrastructure.Extensions
             services.AddDistributedMemoryCache();
             services.AddSession((options =>
             {
-                options.Cookie.Name = "ProjeSession";
+                options.Cookie.Name = "Proje.Session";
                 options.IdleTimeout = TimeSpan.FromMinutes(10);
                 // options.Cookie.HttpOnly = true;
                 // options.Cookie.IsEssential = true;
@@ -110,6 +110,8 @@ namespace Proje.Infrastructure.Extensions
         {
             services.AddTransient<IGirisService, GirisManager>();
             services.AddTransient<IServiceManager, ServicesManager>();
+            services.AddScoped<IAuthService, AuthManager>();
+
         }
 
 

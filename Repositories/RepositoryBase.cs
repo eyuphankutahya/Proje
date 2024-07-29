@@ -5,13 +5,19 @@ using Repositories.Contracts;
 namespace Repositories
 {
 
-    public abstract class RepositoryBase<T> : IRepositoryBase<T> where T : class
+    public abstract class RepositoryBase<T> : IRepositoryBase<T> where T : class, new()
     {
         public readonly RepositoryContext _context;
 
         protected RepositoryBase(RepositoryContext repositoryContext)
         {
             _context = repositoryContext;
+        }
+
+        //??
+        public void Create(T entity)
+        {
+            _context.Set<T>().Add(entity);
         }
 
         public IQueryable<T> FindAll(bool trackChanges)

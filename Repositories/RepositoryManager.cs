@@ -11,7 +11,7 @@ namespace Repositories
         public RepositoryManager(IGirisRepository girisRepository, RepositoryContext context)
         {
             _girisRepository = girisRepository;
-            _context = new RepositoryContext();
+            _context = context;
         }
 
 

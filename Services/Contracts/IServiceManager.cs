@@ -5,5 +5,7 @@ namespace Services.Contracts
     {
         IGirisService GirisService { get; }
 
+        IAuthService AuthService { get; }
+
     }
 }

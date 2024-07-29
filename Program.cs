@@ -30,13 +30,15 @@ app.UseSession();
 app.UseHttpsRedirection();
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
+
 
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 // app.ConfigureAndCheckMigration();
-// app.ConfigureDefaultAdminUser();
+app.ConfigureDefaultAdminUser();
 
 app.Run();
